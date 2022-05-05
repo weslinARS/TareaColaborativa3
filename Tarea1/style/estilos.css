@@ -1,0 +1,74 @@
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    background-color: #141519;
+    color: white;
+}
+
+label {
+    width: 300px;
+    display: block;
+}
+
+.container {
+    width: fit-content;
+    height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(27, 33, 42);
+    background: linear-gradient(317deg, rgba(27, 33, 42, 1) 0%, rgba(30, 37, 47, 1) 100%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+form {
+    position: relative;
+}
+
+form input[type='text'] {
+    text-align: right;
+}
+
+#formulario {
+
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-content: space-around ;
+    gap: 5px;
+}
+
+.controls{
+    background-color: rgb(227, 133, 10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.operaciones {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 120px;
+    gap: 5px;
+}
+
+.operaciones input[type='button'] {
+    background-color: #FC7613;
+    border-style: none;
+    border-radius: 2px;
+    width: 50px;
+    height: 25px;
+    display: block;
+    float: left;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
